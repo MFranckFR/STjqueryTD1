@@ -6,7 +6,8 @@
     $("#but", "body").click(function () {
         console.log("Hello World!");
     });
-});$(function () {
+
+$(function () {
     $("#but", "body").click(function () {
         //$("#container").text("<p>Hello</p>");
         //$("#container").html("<p>Hello</p>");
@@ -17,36 +18,36 @@
     $("#but", "body").click(function () {
         $("div p:nth-child(1)").prepend("<p>test</p>")
     });
-});// Utilisation de la méthode .attr(nomAttribut) 
-// qui permet de récupérer la valeur  
-// de l'attribut passé en paramètre
+});// Utilisation de la mï¿½thode .attr(nomAttribut) 
+// qui permet de rï¿½cupï¿½rer la valeur  
+// de l'attribut passï¿½ en paramï¿½tre
 // Affiche "blue"
 $(function () {
     console.log($("p").attr("class"));
-});// Utilisation de la méthode .attr(nomAttribut) et
-// de .each() qui permet de récupérer toutes 
-// les valeurs de l'attribut passé  en paramètre
+});// Utilisation de la mï¿½thode .attr(nomAttribut) et
+// de .each() qui permet de rï¿½cupï¿½rer toutes 
+// les valeurs de l'attribut passï¿½  en paramï¿½tre
 // Affiche "blue"
 $(function () {
     $("p").each(function(){
         console.log($(this).attr("class"));
     });   
-});// Utilisation de la méthode .length
-// qui permet de déterminer le nombre 
-// d'éléments sélectionnés
+});// Utilisation de la mï¿½thode .length
+// qui permet de dï¿½terminer le nombre 
+// d'ï¿½lï¿½ments sï¿½lectionnï¿½s
 // Affiche 3
 $(function () {
     console.log($("p").length);
-});// Utilisation de la méthode .eq(i)
-// qui permet de choisir l'élément 
-// ayant l'indice passé en paramètre
+});// Utilisation de la mï¿½thode .eq(i)
+// qui permet de choisir l'ï¿½lï¿½ment 
+// ayant l'indice passï¿½ en paramï¿½tre
 // Affiche "blue"
 $(function () {
     //console.log($("p").eq(0));
     console.log($("p:eq(0)"));
-});// Opérations 
+});// Opï¿½rations 
 // p:lt(i) : parag < indice i
 // p:gt(i) : parag > indice i
 // p:even : parag d'indice pair et p:odd d'indice impair
 // p:first : premier parag et p:last : dernier parag
-// input:text : On récupère les inputs de type text
+// input:text : On rï¿½cupï¿½re les inputs de type text
