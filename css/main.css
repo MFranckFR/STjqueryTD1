@@ -19,6 +19,21 @@ body{
     font-style: italic;
 }
 
+.red{
+    color:darkred;
+}
+.blue{
+    color:lightblue;
+    font-weight: bold;
+}
+.green{
+    color:yellowgreen;
+}
+.nimp{
+    font-weight: orange;
+    text-decoration: yellowgreen;
+}
+
 div.resultat{
     display:flex;
     position:relative;
@@ -30,8 +45,53 @@ div.resultat{
     padding:20px;
     background-color: lightgrey;
 }
-p.resultat{
-    color:white;
-    background-color: darkgrey;
+.resultat p{
+    display:unset;
+    /* background-color: grey; */
     padding-left: 5px;
+    color:blue;
+}
+
+blockquote
+{
+    font-style: italic;
+    margin-left: 32px;
+    background : #f8f8f8;
+    overflow : auto;
+    width : auto;
+    border : solid gray;
+    border-width : .1e m .1e m .1e m .8e m;
+    padding : .2e m .6e m;
+    color:black;
+}
+
+
+/* Exo 1 */
+#exo1 button {
+    display: block;
+    margin: 20px 0 0 0;
+}
+#exo1 textarea {
+    width: 200px;
+    height: 60px;
+    margin: 10px;
+    float: left;
+    font‐size: 18px;
+}
+#exo1 p {
+    clear: left;
+    font‐weight: bold;
+    font‐size: 18px;
+    color:
+    green;
+    margin: 5px 10px 0 10px;
+    padding: 2px;
+}
+
+.w3r_font_color{
+    color: red;
+}
+
+.w3r_background {
+    background: yellow;
 }
