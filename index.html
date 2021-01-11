@@ -1,11 +1,23 @@
 <!DOCTYPE html>
-<html>
+<html lang="fr">
 <head>
     <meta charset='utf-8'>
     <meta http-equiv='X-UA-Compatible' content='IE=edge'>
     <title>jQuery - TD1  </title>
     <meta name='viewport' content='width=device-width, initial-scale=1'>
     <link rel='stylesheet' type='text/css' media='screen' href='css/jquery-ui.min.css'>
+
+    <!-- Theme bootstrap-->
+    <link type="text/css"  rel="stylesheet" href="css/bs-theme-neon-glow/bootstrap4-neon-glow.min.css">
+
+        <link type="text/css" rel="stylesheet" href="css/bs-theme-neon-glow/bootstrap-theme-demo-styles.css">
+        <link type="text/css" rel="stylesheet" href="css/bs-theme-neon-glow/fontawesome.v5.6.3-all.css">
+
+        <link type="text/css"  href="css/bs-theme-neon-glow/googleapis-family-roboto.css" rel="stylesheet">
+        <link type="text/css" rel='stylesheet' href='css/bs-theme-neon-glow/hack-v2.020.min.css'>
+
+        <script type="text/css" src="css/bs5/bootstrap.min.css"></script>
+    <!-- /Theme bootstrap-->
     <link rel='stylesheet' type='text/css' media='screen' href='css/main.css'>
     
     <script src='js/jquery.js'></script>
@@ -13,14 +25,18 @@
     
 </head>
 <body>
-    <h1>jQuery - TD1l</h1>
+    <h1 class="">jQuery - TD1l</h1>
 
-    <h2>Introduction</h2>
+    <h2 class="alert-primary">Introduction</h2>
 
-    <p>Insertion de la biliothèque jquery dans le head</p>
-    <p>Le code JS à placer en bas du body pour des questions d'ordonnancement des chargements de script.</p>
-    <p>Test sur un bouton:<input type="button" id="btnIntro" value="Hello bouton" />
+    <div id="q1">
+        <p>Insertion de la biliothèque jquery dans le head</p>
+        <p class="enonce">Le code JS à placer en bas du body pour des questions d'ordonnancement des chargements de script.</p>
+        <p>Test sur un bouton:<input type="button" id="btnIntro" value="Hello bouton" />
+        <div class="resultat"></div>
+        </div>
         
-    <script src='js/main.js'></script>
+    <!--load main jss @bottom page-->
+        <script src='js/main.js'></script>
 </body>
 </html>
