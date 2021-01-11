@@ -1,6 +1,11 @@
+/*
+TD jquery
+*/
+
 $(document).ready(function(){
     $("#btnIntro").click(function(){
-        console.log("Hello World! ");
+        $("#q1 div.resultat p.resultat").text(
+            $("#q1 div.resultat p.resultat").text() == 'Hello' ? '' : 'Hello'); 
     })
 });
 //$(document).ready(function(){..});
